@@ -13,6 +13,9 @@ int main()
 
     Act fiction("УК РК;385;Подделка документов;Штраф 2000 МРП / КПЗ 2 года;");
     fiction.manual_list(fiction);
+    
+    Act evasion("УК РК; 245; Уклонения от уплаты налогов; Штраф 2000 МРП / КПЗ 3 года с ЧС;");
+    fiction.manual_list(evasion);
 
     fiction.Act_file(READ_FILE);
     fiction.list_show();
