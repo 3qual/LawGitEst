@@ -1,1 +1,1 @@
-OOP training
+С++ OOP training
